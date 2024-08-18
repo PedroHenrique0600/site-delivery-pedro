@@ -1,0 +1,180 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#fundo-cabecalho{
+    width: 100%;
+    height: 231px;
+    background-color: #383333;
+    padding: 20px   ;
+}
+
+#texto-cabecalho {
+    display: flex;
+}   
+
+#texto-cabecalho li {
+    list-style: none;
+    color: white;
+}
+
+#logo{
+    width: 357px;
+    height: 241px;
+    border-radius: 157.5px ;  
+    margin-top: -20px;
+}
+
+#quem{
+    font-family: Klee One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 69.5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 450px;
+
+}
+
+#sec-quem{
+    font-family: KoPub Batang;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 43.76px;
+    text-align: center;
+    color: #DF5252;
+    margin-top: 10px;
+}
+
+#fundo-pedidos{
+    width: 100%;
+    background: #F5F5CE;
+    height: 95vh;
+    padding: 10px;
+}
+
+#pedidos{
+    text-align: center;
+}
+
+#pedidos h1{
+    font-family: Klee One;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 34.75px;
+    margin-left: 100px;
+}
+
+#pedidos h1 input{
+    width: 167px;
+    height: 47px;
+    border-radius: 30px;
+
+}
+
+#codigo-pedido{
+    width: 167px;
+    height: 37px;
+    border-radius: 20px ;
+    background-color: #9777C047;
+    border-style: none;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+#texto-pedidos h1{
+    font-family: Josefin Sans;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 23.17px;
+    text-align: center;
+
+}
+
+#texto-pedidos h2 {
+    font-family: Josefin Slab;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 23.17px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#retangulo-pedidos{
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #9777C059;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+#pratos{
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #FFFFFF59;
+    font-family: Josefin Slab;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28.96px;
+    float: left;
+    margin-right: 30px;
+}
+
+#bebidas {
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #FFFFFF59;
+    font-family: Josefin Slab;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28.96px;
+    float: right;
+    margin-right: 70px;
+}
+#retangulo-pedidos li{
+    list-style: none;
+   margin-left: 30px;
+   margin-top: 50px;
+}
+
+#valor{
+    font-family: Josefin Slab;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 23.17px;
+    display: flex;
+    padding-top: 370px;
+    
+}
+#cabecalho{
+    width: 100%;
+    height: 80px;
+    background-color: #D9D9D9;
+    padding-top: 20px;
+}
+
+#lista{
+    display: flex;
+    justify-content: center;
+}
+
+#lista li {
+    list-style: none;
+    margin-left: 100px;
+    font-family: Imperial Script;
+    font-size: 40px;
+    line-height: 60.5px;
+    text-align: left;
+    margin-top: -10px;
+}
+#lista li a {
+    text-decoration: none; 
+    color: black;
+}

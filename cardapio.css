@@ -1,0 +1,216 @@
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+section{
+    min-height: 300vh;
+  background-color: #F5F5CE;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 80px;
+    background-color: #D9D9D9;
+    padding-top: 20px;
+}
+
+#lista{
+    display: flex;
+    justify-content: center;
+}
+
+#lista li {
+    list-style: none;
+    margin-left: 100px;
+    font-family: Imperial Script;
+    font-size: 40px;
+    line-height: 60.5px;
+    text-align: left;
+    margin-top: -10px;
+}
+#lista li a {
+    text-decoration: none;
+    color: black;
+}
+
+#conteudo{
+text-align: center;
+margin-top: 40px;
+}
+
+#vetor3{
+    width: 40px;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#pesquisa{
+    width: 375px;
+    height: 40px;
+    background-color:#D9D9D9;
+    border-style: none;
+}
+
+#texto1{
+    margin-left: 40px;
+}
+
+#antipasti{
+    font-family: Imperial Script;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 72.6px;
+}
+
+#entrada{
+    font-family: Josefin Slab;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#texto2{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+#bebida{
+    font-family: Imperial Script;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 72.6px;
+}
+
+#lista-bebidas li {
+    font-family: Josefin Slab;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+#imagens-bebida ul li {
+    list-style: none;
+}
+
+#vinho{
+    width: 321px;
+    height: 403px;
+    border-radius: 250px;
+   
+}
+
+#brusq {
+    width: 443px;
+    height: 294px;
+    border-radius: 113px;   
+    margin-top: 50px;
+}
+
+#lista-imagem-bebida{
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+}
+
+#lista-imagem-bebida li{
+    margin-left: 200px;
+}
+
+#logo{
+    margin-left: 100px;
+}
+
+#imagem-logo{
+    width: 182px;
+    height: 160px;
+    border-radius: 70px;
+    margin-top: -90px;
+    float: right;  
+    margin-right: 30px;
+    height: auto;
+
+}
+
+#texto3{
+    margin-left: 40px;
+}
+
+#secondi{
+    font-family: Imperial Script;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 84.7px;
+    text-align: left;
+}
+
+#pratos-principias{
+    font-family: Josefin Slab;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#prato1{
+    width: 499px;
+    height: 265px;
+    border-radius: 178px;
+}
+
+#prato2{
+    width: 446px;
+    height: 280px;
+    border-radius: 183px;
+}
+
+#lista-imagem-pratos li{
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#lista-imagem-pratos{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#texto4{
+    margin-left: 40px;
+}
+
+#dolci{
+    font-family: Ingrid Darling;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 86.8px;
+}
+
+#sobremesas{
+    font-family: Josefin Slab;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#sobremesa1{
+    width: 443px;
+    height: 295px;
+    border-radius: 320px ;
+}
+
+#sobremesa2{
+    width: 413px;
+    height: 306px;
+    border-radius: 337.5px ;
+}
+
+#lista-imagem-sobremesas{
+    display: flex;
+    justify-content: center;
+}
+
+#lista-imagem-sobremesas li{
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 50px;
+}

@@ -1,0 +1,115 @@
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+section{
+    min-height: 140vh;
+  background-color: #F5F5CE;
+}
+
+#ff-branco{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+#cabecalho{
+    width: 100%;
+    height: 80px;
+    background-color: #D9D9D9;
+    padding-top: 20px;
+}
+
+#lista{
+    display: flex;
+    justify-content: center;
+}
+
+#lista li {
+    list-style: none;
+    margin-left: 100px;
+    font-family: Imperial Script;
+    font-size: 40px;
+    line-height: 60.5px;
+    text-align: left;
+    margin-top: -10px;
+}
+#lista li a {
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 406px;
+    height: 226px;
+    gap: 0px;
+    border-radius: 70px;
+    opacity: 0px;
+
+}
+
+#fundo-branco{
+    margin-top: 5%;
+    width: 627px;
+    height: 751px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    text-align: center; 
+}
+
+h2{
+    font-family: Imperial Script;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72.6px;
+    margin-top: -50px;
+}
+
+h3{
+    font-family: Josefin Slab;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+label {
+    font-family: Josefin Slab;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#email{
+    width: 537px;
+    height: 49px;
+    background-color: #D9D9D9;
+    border-style: none;
+}
+
+#senha{
+    width: 537px;
+    height: 49px;
+    background-color: #D9D9D9;
+    border-style: none;
+}
+
+#continuar{
+    width: 537px;
+    height: 74px;
+    border-radius: 10px;
+    font-family: Josefin Slab;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    background-color: black;
+    color:  #E0DFDF;
+}
